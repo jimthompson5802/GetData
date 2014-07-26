@@ -107,6 +107,11 @@ CalcMeans <- function(df) {
 # calculate mean of each numeric feature by subject and activity label
 data.set.two <- ddply(data.set.one, .(subject.id,activity.label), CalcMeans)
 
+#
+# clean up unneeded data frames
+#
+rm(activity, train.X, train.y, train.id, test.X, test.y, test.id,
+   train.df, test.df, all.df, fname.df, features, mean.idx, std.idx)
 
 #
 # Write out second tidy data set
