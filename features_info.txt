@@ -60,3 +60,15 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
+
+
+Extracted Data
+==============
+Data for this class was prepared in teh following manner:
+
+Merges the training and the test sets to create one data set.
+
+Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+Then for each extracted attribute, we normalized the attribute name to conform with R coding standards.  The naming convention used is based on Google's R coding convention described here https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers
+
