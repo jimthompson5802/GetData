@@ -1,4 +1,4 @@
-This contains two sections.  First section "Feature Selection" describes the original data.  Second section "Extracted Data" describes how the data was prepared for this class.
+This contains two sections.  First section "Feature Selection" describes the original data.  Second section "Class Data Set" describes how the data was prepared for this class.
 
 
 Feature Selection 
@@ -62,7 +62,7 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-Extracted Data
+Class Data Set
 ==============
 Data for this class was prepared in teh following manner:
 
