@@ -1,3 +1,6 @@
+This contains two sections.  First section "Feature Selection" describes the original data.  Second section "Extracted Data" describes how the data was prepared for this class.
+
+
 Feature Selection 
 =================
 
