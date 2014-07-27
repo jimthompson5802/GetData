@@ -72,3 +72,92 @@ Extracts only the measurements on the mean and standard deviation for each measu
 
 Then for each extracted attribute, we normalized the attribute name to conform with R coding standards.  The naming convention used is based on Google's R coding convention described here https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers
 
+These are the created attributes for the class
+subject.id: Unique identifier for subject
+activity.label: String label for the activity
+tbodyacc.mean.x: Mean of the Mean of  Body Accelaration  along the X-axis
+tbodyacc.mean.y: Mean of the Mean of  Body Accelaration  along the Y-axis
+tbodyacc.mean.z: Mean of the Mean of  Body Accelaration  along the Z-axis
+tbodyacc.std.x: Mean of the Standard Deviaion of  Body Accelaration  along the X-axis
+tbodyacc.std.y: Mean of the Standard Deviaion of  Body Accelaration  along the Y-axis
+tbodyacc.std.z: Mean of the Standard Deviaion of  Body Accelaration  along the Z-axis
+tgravityacc.mean.x: Mean of the Mean of  Gravity Acceleration along the X-axis
+tgravityacc.mean.y: Mean of the Mean of  Gravity Acceleration along the Y-axis
+tgravityacc.mean.z: Mean of the Mean of  Gravity Acceleration along the Z-axis
+tgravityacc.std.x: Mean of the Standard Deviaion of  Gravity Acceleration along the X-axis
+tgravityacc.std.y: Mean of the Standard Deviaion of  Gravity Acceleration along the Y-axis
+tgravityacc.std.z: Mean of the Standard Deviaion of  Gravity Acceleration along the Z-axis
+tbodyaccjerk.mean.x: Mean of the Mean of  Body Accelaration Jerk along the X-axis
+tbodyaccjerk.mean.y: Mean of the Mean of  Body Accelaration Jerk along the Y-axis
+tbodyaccjerk.mean.z: Mean of the Mean of  Body Accelaration Jerk along the Z-axis
+tbodyaccjerk.std.x: Mean of the Standard Deviaion of  Body Accelaration Jerk along the X-axis
+tbodyaccjerk.std.y: Mean of the Standard Deviaion of  Body Accelaration Jerk along the Y-axis
+tbodyaccjerk.std.z: Mean of the Standard Deviaion of  Body Accelaration Jerk along the Z-axis
+tbodygyro.mean.x: Mean of the Mean of  body gyroscopic accleration along the X-axis
+tbodygyro.mean.y: Mean of the Mean of  body gyroscopic accleration along the Y-axis
+tbodygyro.mean.z: Mean of the Mean of  body gyroscopic accleration along the Z-axis
+tbodygyro.std.x: Mean of the Standard Deviaion of  body gyroscopic accleration along the X-axis
+tbodygyro.std.y: Mean of the Standard Deviaion of  body gyroscopic accleration along the Y-axis
+tbodygyro.std.z: Mean of the Standard Deviaion of  body gyroscopic accleration along the Z-axis
+tbodygyrojerk.mean.x: Mean of the Mean of  body gyroscopic accleration jerk along the X-axis
+tbodygyrojerk.mean.y: Mean of the Mean of  body gyroscopic accleration jerk along the Y-axis
+tbodygyrojerk.mean.z: Mean of the Mean of  body gyroscopic accleration jerk along the Z-axis
+tbodygyrojerk.std.x: Mean of the Standard Deviaion of  body gyroscopic accleration jerk along the X-axis
+tbodygyrojerk.std.y: Mean of the Standard Deviaion of  body gyroscopic accleration jerk along the Y-axis
+tbodygyrojerk.std.z: Mean of the Standard Deviaion of  body gyroscopic accleration jerk along the Z-axis
+tbodyaccmag.mean: Mean of the Mean of  Body acceleration magnitude 
+tbodyaccmag.std: Mean of the Standard Deviaion of  Body acceleration magnitude 
+tgravityaccmag.mean: Mean of the Mean of  Gravity Acceleration magnitude 
+tgravityaccmag.std: Mean of the Standard Deviaion of  Gravity Acceleration magnitude 
+tbodyaccjerkmag.mean: Mean of the Mean of  body acceleration jerk magnitude 
+tbodyaccjerkmag.std: Mean of the Standard Deviaion of  body acceleration jerk magnitude 
+tbodygyromag.mean: Mean of the Mean of  body gyroscopic magnitude 
+tbodygyromag.std: Mean of the Standard Deviaion of  body gyroscopic magnitude 
+tbodygyrojerkmag.mean: Mean of the Mean of  body gyroscopic jerk magnitude 
+tbodygyrojerkmag.std: Mean of the Standard Deviaion of  body gyroscopic jerk magnitude 
+fbodyacc.mean.x: Mean of the Mean of  Body Accelaration  along the X-axis
+fbodyacc.mean.y: Mean of the Mean of  Body Accelaration  along the Y-axis
+fbodyacc.mean.z: Mean of the Mean of  Body Accelaration  along the Z-axis
+fbodyacc.std.x: Mean of the Standard Deviaion of  Body Accelaration  along the X-axis
+fbodyacc.std.y: Mean of the Standard Deviaion of  Body Accelaration  along the Y-axis
+fbodyacc.std.z: Mean of the Standard Deviaion of  Body Accelaration  along the Z-axis
+fbodyacc.meanfreq.x: Mean of the Mean of  Body Accelaration  along the X-axis
+fbodyacc.meanfreq.y: Mean of the Mean of  Body Accelaration  along the Y-axis
+fbodyacc.meanfreq.z: Mean of the Mean of  Body Accelaration  along the Z-axis
+fbodyaccjerk.mean.x: Mean of the Mean of  Body Accelaration Jerk along the X-axis
+fbodyaccjerk.mean.y: Mean of the Mean of  Body Accelaration Jerk along the Y-axis
+fbodyaccjerk.mean.z: Mean of the Mean of  Body Accelaration Jerk along the Z-axis
+fbodyaccjerk.std.x: Mean of the Standard Deviaion of  Body Accelaration Jerk along the X-axis
+fbodyaccjerk.std.y: Mean of the Standard Deviaion of  Body Accelaration Jerk along the Y-axis
+fbodyaccjerk.std.z: Mean of the Standard Deviaion of  Body Accelaration Jerk along the Z-axis
+fbodyaccjerk.meanfreq.x: Mean of the Mean of  Body Accelaration Jerk along the X-axis
+fbodyaccjerk.meanfreq.y: Mean of the Mean of  Body Accelaration Jerk along the Y-axis
+fbodyaccjerk.meanfreq.z: Mean of the Mean of  Body Accelaration Jerk along the Z-axis
+fbodygyro.mean.x: Mean of the Mean of  body gyroscopic accleration along the X-axis
+fbodygyro.mean.y: Mean of the Mean of  body gyroscopic accleration along the Y-axis
+fbodygyro.mean.z: Mean of the Mean of  body gyroscopic accleration along the Z-axis
+fbodygyro.std.x: Mean of the Standard Deviaion of  body gyroscopic accleration along the X-axis
+fbodygyro.std.y: Mean of the Standard Deviaion of  body gyroscopic accleration along the Y-axis
+fbodygyro.std.z: Mean of the Standard Deviaion of  body gyroscopic accleration along the Z-axis
+fbodygyro.meanfreq.x: Mean of the Mean of  body gyroscopic accleration along the X-axis
+fbodygyro.meanfreq.y: Mean of the Mean of  body gyroscopic accleration along the Y-axis
+fbodygyro.meanfreq.z: Mean of the Mean of  body gyroscopic accleration along the Z-axis
+fbodyaccmag.mean: Mean of the Mean of  Body acceleration magnitude 
+fbodyaccmag.std: Mean of the Standard Deviaion of  Body acceleration magnitude 
+fbodyaccmag.meanfreq: Mean of the Mean of  Body acceleration magnitude 
+fbodybodyaccjerkmag.mean: Mean of the Mean of  body-to-body acceleration jerk magnitude 
+fbodybodyaccjerkmag.std: Mean of the Standard Deviaion of  body-to-body acceleration jerk magnitude 
+fbodybodyaccjerkmag.meanfreq: Mean of the Mean of  frequency for body-to-body acceleration jer magnitude 
+fbodybodygyromag.mean: Mean of the Mean of  body-to-body gyroscopic acceleration magnitude 
+fbodybodygyromag.std: Mean of the Standard Deviaion of  body-to-body gyroscopic acceleration magnitude 
+fbodybodygyromag.meanfreq: Mean of the Mean of  frequency for body-to-body gyroscopic jerk magnitude 
+fbodybodygyrojerkmag.mean: Mean of the Mean of  body-to-body gyroscopic jerk magnitude 
+fbodybodygyrojerkmag.std: Mean of the Standard Deviaion of  body-to-body gyroscopic jerk magnitude 
+fbodybodygyrojerkmag.meanfreq: Mean of the Mean of  frequency for body-to-body gyroscopic jerk magnitude 
+angle.tbodyaccmean.gravity: Mean of the Mean of  body acceleration by gravity 
+angle.tbodyaccjerkmean..gravitymean: Mean of the Mean of  angle of body jerk accelration by gravity 
+angle.tbodygyromean.gravitymean: Mean of the Mean of  angle of body gyroscopic by gravity 
+angle.tbodygyrojerkmean.gravitymean: Mean of the Mean of  angle of body gyroscopic jerk by gravity 
+angle.x.gravitymean: Mean of the Mean of  angle of gravity mean along the X-axis
+angle.y.gravitymean: Mean of the Mean of  angle of gravity mean along the Y-axis
+angle.z.gravitymean: Mean of the Mean of  angle of gravity mean along the Z-axis
