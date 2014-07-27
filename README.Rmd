@@ -17,11 +17,11 @@ taken to prepare the data set are as follows:
 
 * Download data and extract out the original accelerometer data
 * Extract the activity labels to allow translation from numeric code to
-activity label string.
+activity label string
 * Extract the original feature names in the data set. Make the to  create feature names legal for R. Feature name creation is based on [Google's 
 R style guide found at this web site](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers)
-* Extract the training data set
-* Extract the test data set
+* Extract the training data set and merge with activity label data
+* Extract the test data set and merge with activity label data
 * Combine train and test sets together to create one single data set for
 the class project
 * Create first data set with just mean and standard deviation attributes. 
