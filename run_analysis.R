@@ -42,7 +42,7 @@ names(train.X) <- features
 
 train.y <- read.table("./UCI HAR Dataset/train/y_train.txt")
 names(train.y) <- "activity.code"
-train.y <- merge(train.y,activity)
+
 
 train.id <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 names(train.id) <- "subject.id"
@@ -61,7 +61,7 @@ names(test.X) <- features
 
 test.y <- read.table("./UCI HAR Dataset/test/y_test.txt")
 names(test.y) <- "activity.code"
-test.y <- merge(test.y,activity)
+
 
 test.id <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 names(test.id) <- "subject.id"
@@ -88,20 +88,23 @@ mean.idx <- grepl("mean", names(all.df), ignore.case=TRUE)  # features with mean
 std.idx <- grepl("std", names(all.df), ignore.case=TRUE)  # features with standard deviaion 
 
 # extract out attributes for mean and standard deviation
-data.set.one <- cbind(all.df[, 1:4], all.df[, mean.idx | std.idx])
+data.set.one <- cbind(all.df[, 1:3], all.df[, mean.idx | std.idx])
 
 # resulted attributes for data.set.one
 names(data.set.one)
 
-#
+# add activity label
+data.set.one <- merge(data.set.one,activity)
+
+
 # create second tidy data set
-#
+
 library(plyr)
 # function to calculate means of all columns except those used for idendification
 # assumes the identifier columns are the first 4 columns
 # used in conjunction with ddply() function.
 CalcMeans <- function(df) {
-    colMeans(df[, 5:ncol(df)])
+    colMeans(df[, 4:(ncol(df)-1)])
 }
 
 # calculate mean of each numeric feature by subject and activity label
